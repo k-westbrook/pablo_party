@@ -4,6 +4,6 @@ import Main from './Main'
 
 
 ReactDOM.render(
-  <Main />,
+  <h1>HIII</h1>,
   document.getElementById('app')
 );

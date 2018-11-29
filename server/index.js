@@ -1,11 +1,11 @@
 const path = require('path')
 const express = require('express')
-const volleyball = require('volleyball')
+const morgan = require('morgan')
 const app = express()
 module.exports = app
 
 // Logging middleware
-app.use(volleyball)
+app.use(morgan)
 
 // Body parsing middleware
 app.use(express.json())

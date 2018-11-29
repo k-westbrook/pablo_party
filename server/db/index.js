@@ -1,5 +1,5 @@
 const db = require('./db')
-const Guest = require('./Todo')
+const Guest = require('./Guest')
 
 module.exports = {
   db,
